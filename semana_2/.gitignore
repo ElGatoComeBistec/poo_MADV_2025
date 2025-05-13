@@ -1,0 +1,5 @@
+´´´´shell
+*.pyc
+__pycache__/
+.venv/
+´´´´
