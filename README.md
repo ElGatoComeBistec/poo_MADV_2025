@@ -51,7 +51,9 @@ __pycache__/
 
  ## 8. Creear el archivo **rutime.txt**
 
+````shell
 python3 -V > runtime.txt
+````
 
  ## 9. Indexar los archivos y cambios realizados en el proyecto
 
@@ -69,5 +71,6 @@ python3 -V > runtime.txt
 
  se realiza un **push** para subir los cambios realizados al repocitorio de **GitHub**
 
+````shell
  git push -u origin main
- 
+ ````
