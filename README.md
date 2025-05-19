@@ -58,13 +58,13 @@ python3 -V > runtime.txt
  ## 9. Indexar los archivos y cambios realizados en el proyecto
 
  ````shell
- git add.
+ git add .
  ````
 
  ## 10. Generear un **commint**con un texto que describa los cambios realizados en el proyecto
 
  ````shell
- git commint -m "CREATED configuracion basica"
+ git commit -m "CREATED configuracion basica"
  ````
 
  ## 11. Realizar un **push**
