@@ -42,3 +42,32 @@ __pycache__/
  ````shell
  pip install web.py
  ````
+
+ ## 7. Creear el archivo **requirements.txt** con las librerias y el numero de verciones utilizadas
+
+ ````shell
+ pip freeze > requirements.txt
+ ````
+
+ ## 8. Creear el archivo **rutime.txt**
+
+python3 -V > runtime.txt
+
+ ## 9. Indexar los archivos y cambios realizados en el proyecto
+
+ ````shell
+ git add.
+ ````
+
+ ## 10. Generear un **commint**con un texto que describa los cambios realizados en el proyecto
+
+ ````shell
+ git commint -m "CREATED configuracion basica"
+ ````
+
+ ## 11. Realizar un **push**
+
+ se realiza un **push** para subir los cambios realizados al repocitorio de **GitHub**
+
+ git push -u origin main
+ 
