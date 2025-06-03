@@ -1,7 +1,10 @@
-# poo_MADV_2025
-ejercicios de poo con python :v
+# Introducción a Web.py y Python
 
-## 1. Ejemplos de Poo
+Este repositorio contiene ejercicios prácticos para aprender el uso de web.py y la integración de HTML en aplicaciones Python.
+
+## 1. Crear el archivo **.gitignore**
+
+Crea el archivo **.gitignore** para especificar los archivos y carpetas que no deben sincronizarse con el repositorio.
 
 ````shell
 *.pyc
@@ -9,68 +12,90 @@ __pycache__/
 .venv/
 ````
 
- ## 3. Se crea el ambiente virtual de trabajo de python
+## 2. Crear el entorno virtual (**virtual environment**)
 
- ````shell
- python3 -m venv .venv
- ````
+Crea un entorno virtual de Python para aislar las dependencias del proyecto.
 
- ## 4. Iniciar el **virtual Enviroment**
+````shell
+python3 -m venv .venv
+````
 
- Se activa el **Virtual enviroment** para instalar las librerias necesarias para el proyecto
+## 3. Activar el entorno virtual
 
- ````shell
- source .venv/bin/activate
- ````
+Activa el entorno virtual para instalar las librerías necesarias para el proyecto.
 
- Se actualiza la vercin instalada de **pip** para poder descargar las ultimas verciones de las librerias
+````shell
+source .venv/bin/activate
+````
 
- ````shell
- pip install --upgrate pip 
- ````
+## 4. Actualizar **pip** dentro del entorno virtual
 
- ## 5. Verifica las librerias y verciones instaladas
+Actualiza la versión de **pip** para poder instalar las últimas versiones de las librerías.
 
- se verifica que librerias y verciones se tienen instaladas
+````shell
+pip install --upgrade pip
+````
 
- ````shell
- pip freeze
- ````
+## 5. Verificar las librerías instaladas
 
- ## 6. Instalar las librerias que van a ocupar el proyecto.
+Verifica qué librerías y versiones tienes instaladas en el entorno virtual.
 
- ````shell
- pip install web.py
- ````
+````shell
+pip freeze
+````
 
- ## 7. Creear el archivo **requirements.txt** con las librerias y el numero de verciones utilizadas
+## 6. Instalar librerías necesarias
 
- ````shell
- pip freeze > requirements.txt
- ````
+Instala las librerías requeridas para el proyecto. Por ejemplo, para este repositorio:
 
- ## 8. Creear el archivo **rutime.txt**
+````shell
+pip install web.py
+````
+
+## 7. Crear el archivo **requirements.txt**
+
+Genera el archivo **requirements.txt** con las librerías y versiones utilizadas en el proyecto.
+
+````shell
+pip freeze > requirements.txt
+````
+
+## 8. Crear el archivo **runtime.txt**
+
+Crea el archivo **runtime.txt** con la versión de Python utilizada en el proyecto.
 
 ````shell
 python3 -V > runtime.txt
 ````
 
- ## 9. Indexar los archivos y cambios realizados en el proyecto
+## 9. Indexar los archivos creados con **git**
 
- ````shell
- git add .
- ````
-
- ## 10. Generear un **commint**con un texto que describa los cambios realizados en el proyecto
-
- ````shell
- git commit -m "CREATED configuracion basica"
- ````
-
- ## 11. Realizar un **push**
-
- se realiza un **push** para subir los cambios realizados al repocitorio de **GitHub**
+Agrega los archivos y cambios realizados al control de versiones con **git**.
 
 ````shell
- git push -u origin main
- ````
+git add .
+````
+
+## 10. Generar un **commit**
+
+Realiza un **commit** con un mensaje descriptivo sobre los cambios realizados.
+
+````shell
+git commit -m "CREATED configuracion basica"
+````
+
+## 11. Realizar un **push** 
+
+Sube los cambios realizados al repositorio de **GitHub**.
+
+````shell
+git push -u origin main
+````
+
+---
+
+**Notas y recomendaciones:**
+- Asegúrate de activar el entorno virtual cada vez que trabajes en el proyecto.
+- El archivo **.gitignore** es fundamental para evitar subir archivos innecesarios o sensibles.
+- Utiliza mensajes de commit claros y descriptivos para facilitar el seguimiento de los cambios.
+
